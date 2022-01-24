@@ -28,7 +28,7 @@ Before deploying the Cluster Autoscaler, you must meet the following prerequisit
     ```
 2. Go to ***script*** folder and edit ***script.sh***
     ``` 
-        cd script/ 
+        cd eks-cluster-autoscaler/script/
         vim script.sh
     ```
 
