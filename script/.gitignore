@@ -1,2 +1,2 @@
 cluster-autoscaler-policy.json
-iamRole-trust-policy.json
+iam-role-trust-policy.json

@@ -24,7 +24,7 @@ Before deploying the Cluster Autoscaler, you must meet the following prerequisit
 1. download this repository.
 
     ``` 
-        git clone test 
+        git clone https://github.com/fahimshahriar018/eks-cluster-autoscaler.git
     ```
 2. Go to ***script*** folder and edit ***script.sh***
     ``` 
