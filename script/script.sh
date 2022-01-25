@@ -2,7 +2,7 @@
 env="test"
 iamPolicyName="${env}EKSClusterAutoScalerPolicy"
 iamRole="${env}EKSClusterAutoScalerRole"
-accountId="12345678"
+accountId=$(aws sts get-caller-identity --query "Account" --output text)
 region="us-west-2"
 clusterName="test-cluster"
 clusterAutoScalerImageTag="v1.20.2"
