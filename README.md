@@ -44,7 +44,7 @@ Before deploying the Cluster Autoscaler, you must meet the following prerequisit
 3. add execute permission to run the script and run it. 
     ```
     chmod +x script.sh
-    . script.sh
+    . ./script.sh
     ```
     Deployment is done. 
 ## View your Cluster Autoscaler logs
